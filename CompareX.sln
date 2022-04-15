@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareX.Core", "CompareX.Core\CompareX.Core.csproj", "{E9FEA23B-3C52-4F15-A2E5-31D9857D50B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareX", "CompareX\CompareX.csproj", "{92472A16-A35D-46E9-B675-5773E2439743}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareX.Tests", "CompareX.Tests\CompareX.Tests.csproj", "{91DC9A86-2C80-4BD2-8F44-17AE8477F0DF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9FEA23B-3C52-4F15-A2E5-31D9857D50B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FEA23B-3C52-4F15-A2E5-31D9857D50B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FEA23B-3C52-4F15-A2E5-31D9857D50B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FEA23B-3C52-4F15-A2E5-31D9857D50B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92472A16-A35D-46E9-B675-5773E2439743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92472A16-A35D-46E9-B675-5773E2439743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92472A16-A35D-46E9-B675-5773E2439743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92472A16-A35D-46E9-B675-5773E2439743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DC9A86-2C80-4BD2-8F44-17AE8477F0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DC9A86-2C80-4BD2-8F44-17AE8477F0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DC9A86-2C80-4BD2-8F44-17AE8477F0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DC9A86-2C80-4BD2-8F44-17AE8477F0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

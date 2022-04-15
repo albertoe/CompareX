@@ -1,0 +1,12 @@
+{
+  "IncludesChildren": false,
+  "RootFolder": "C:\\test",
+  "Signatures": {
+    "C:\\test\\testfile1.txt": {
+      "FileDate": "2010-10-10T10:10:10Z",
+      "FileSize": 10000,
+      "Signature": "af4a1986d41ff7416decf20ec0f0664c"
+    }
+  },
+  "SnapshotDate": "2020-01-01T01:01:01.5349502-07:00"
+}
